@@ -1,0 +1,185 @@
+¨*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.columna1, .columna2{
+    flex-basis: 50%; 
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.tarjeta{
+    width: 100%;
+    height: 300px;
+    background-color: gray; 
+}
+
+.tarjeta p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.texto-giftcard-1{
+    font-size: 20px;
+}
+
+.texto-giftcard-2{
+    font-size: 40px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.precio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    width: 20%;
+    height: 30px;
+}
+
+h1 {
+    color:midnightblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2{
+    font-size: 18px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.columna1 p{
+    font-size: 20;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.muestra h2 {
+    width: 30%;
+}
+
+.muestra {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.muestra label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.circulo{
+    display: inline-block;
+    position: relative;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.rojo {
+    background-color: red;
+}
+
+.azul {
+    background-color: blue;
+}
+
+.amarillo {
+    background-color: yellow;
+}
+
+.verde {
+    background-color: green;
+}
+
+.rosa {
+    background-color: pink;
+}
+
+.tamaño-fuente-19px{
+    font-size: 19px;
+}
+
+.tamaño-fuente-22px{
+    font-size: 22px;
+}
+
+.tamaño-fuente-25px {
+    font-size: 25px;
+}
+
+.fondo {
+    width: 40px;
+    height: 30px;
+    border: 1px solid gray;
+}
+
+.ubicacion-precio{
+    width: 30%;
+    height: 20%;
+    background-color: rgb(75, 75, 75);
+}
+
+.posicion2 {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.posicion3 {
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.fondo1{
+    background-image: linear-gradient(to right, #FFDAB9, #87CEEB);
+}
+
+.fondo2{
+    background-image: linear-gradient(to bottom, #f98866, #f5a25f, #f0c75e, #e4de4a);
+}
+
+.fondo3{
+    background-image: radial-gradient( #fda085, #ee9ca7, #a29bfe);
+}
+
+.fondo4{
+    background-image: conic-gradient(  #f3d9e3, #ede3f0, #d9e3f0, #e1f0d9, #f0e1d9);
+}
+
+.fondo5{
+    background-image: linear-gradient(to bottom right, #74bbfb, #84f0d5, #c0f7eb);
+}
+
+input[type="text"], input[type="number"]{
+    width: 100%;
+    border: 1px solid gray;
+    border-radius: 5px;
+    height: 22px;
+}
+
+button{
+    color: white;
+    background-color: midnightblue;
+    padding: 10px;
+    border-radius: 10px;
+}
