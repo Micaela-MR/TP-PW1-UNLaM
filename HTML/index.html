@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cursos</title>
+    <link rel="icon" type="image/x-icon" href="images/logo.png">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="./images/logo.png" alt="">
+        </div>
+        <div class="buscadorContenedor">
+            <form>
+                <input class="buscador buscadorImagen" type="text" list="listaCurso">
+                <datalist id="listaCurso">
+                  <option value="HTML">
+                  <option value="CSS">
+                  <option value="JavaScript">
+                  <option value="React">
+                  <option value="PHP">
+                  <option value="Java">
+                </datalist>
+              </form>
+        </div>
+        <div class="contenedorCarrito">
+            <div class="carritoNum">
+                <p>0</p>
+            </div>
+        </div>
+    </header>
+    <main>
+        <nav>
+            <ul>
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="">Detalles de curso</a></li>
+                <li><a href="">Calendario</a></li>
+                <li><a href="">Gift card</a></li>
+                <li><a href="">Formulario</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+
+        <div class="carousel">
+            <div class="flechaIzq"></div>
+            <img src="images/carousell.jpg" alt="">
+            <div class="flechaDer"></div>
+        </div>
+
+        <section class="pasos">
+            <article class="pasosCard">
+                <p>Paso1: <br> Selecciona el curso que mas te guste.</p>
+            </article>
+            <article class="pasosCard">
+                <p>Paso 2: <br> Elegí el horario que mas se adapte a vos.</p>
+            </article>
+            <article class="pasosCard">
+                <p>Paso 3: <br> Indica un método de pago.</p>
+            </article>
+        </section>
+        <h1>CURSOS DESTACADOS</h1>
+        <section class="cursos">
+
+            <article class="cardCursos">
+                <div class="imgCentro htmlLogo">
+                    <div class="precio">
+                        <p>U$D 40.-</p>
+                    </div> 
+                </div>
+
+                <div class="nombreCurso">
+                    <p>40hs</p> 
+                    <p>HTML</p>
+                </div>
+                <div class="detalleCurso">
+                    <p><a class="verDetalle" href="">ver detalle</a></p>
+                    <p><a class="comprar" href="">Comprar</a></p>
+                </div>
+            </article>
+
+            <article class="cardCursos">
+                <div class="imgCentro cssLogo">
+                    <div class="precio">
+                        <p>U$D 50.-</p>
+                    </div> 
+                </div>
+
+                <div class="nombreCurso">
+                    <p>50hs</p> 
+                    <p>CSS</p>
+                </div>
+                <div class="detalleCurso">
+                    <p><a class="verDetalle" href="">ver detalle</a></p>
+                    <p><a class="comprar" href="">Comprar</a></p>
+                </div>
+            </article>
+
+            <article class="cardCursos">
+                <div class="imgCentro jsLogo">
+                    <div class="precio">
+                        <p>U$D 65.-</p>
+                    </div> 
+                </div>
+
+                <div class="nombreCurso">
+                    <p>80hs</p> 
+                    <p>JavaScript</p>
+                </div>
+                <div class="detalleCurso">
+                    <p><a class="verDetalle" href="">ver detalle</a></p>
+                    <p><a class="comprar" href="">Comprar</a></p>
+                </div>
+            </article>
+        </section>
+
+        <section class="cursos">
+            <article class="cardCursos">
+                <div class="imgCentro reactLogo">
+                    <!-- <div class="precio">
+                        <p>U$D 70.-</p>
+                    </div>  -->
+                </div>
+
+                <div class="nombreCurso">
+                    <p>70hs</p> 
+                    <p>React</p>
+                </div>
+                <div class="detalleCurso">
+                    <p><a class="verDetalle" href="">ver detalle</a></p>
+                    <p><a class="comprar" href="">Comprar</a></p>
+                </div>
+            </article>
+            
+            <article class="cardCursos">
+                <div class="imgCentro phpLogo">
+                    <!-- <div class="precio">
+                        <p>U$D 60.-</p>
+                    </div>  -->
+                </div>
+
+                <div class="nombreCurso">
+                    <p>120hs</p> 
+                    <p>PHP</p>
+                </div>
+                <div class="detalleCurso">
+                    <p><a hr class="verDetalle"ef="">ver detalle</a></p>
+                    <p><a class="comprar" href="">Comprar</a></p>
+                </div>
+            </article>
+
+            <article class="cardCursos">
+                <div class="imgCentro javaLogo">
+                    <!-- <div class="precio">
+                        <p>U$D 70.-</p>
+                    </div>  -->
+                </div>
+
+                <div class="nombreCurso">
+                    <p>110hs</p> 
+                    <p>Java</p>
+                </div>
+                <div class="detalleCurso">
+                    <p><a class="verDetalle" href="">ver detalle</a></p>
+                    <p><a class="comprar" href="">Comprar</a></p>
+                </div>
+            </article>
+        </section>
+        <h2>MEDIOS DE PAGO</h2>
+        <aside class="mediosPago">
+            <div class="flechaIzq"></div>
+            <div><img src="images/visaLogo.png" alt=""></div>
+            <div><img src="images/masterCardLogo.png" alt=""></div>
+            <div><img src="images/mpLogo.png" alt=""></div>
+            <div><img src="images/payPalLogo.png" alt=""></div>
+            <div class="flechaDer"></div>
+        </aside>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="infoGrupo a">
+                <p>Tecnicatura en desarrollo WEB</p>
+                <p>Programación WEB 1</p>
+                <p>@Micaela Méndez Rodriguez</p>
+                <p>@Ramiro Ignacio Valdez</p>
+                <p>@Rodrigo Hernán Blanco</p>
+            </div>
+            <div class="lista b">
+                <ul>
+                    <li><a href="">Inicio</a></li>
+                    <li><a href="">Detalles de curso</a></li>
+                    <li><a href="">Calendario</a></li>
+                    <li><a href="">Gift card</a></li>
+                    <li><a href="">Formulario</a></li>
+                    <li><a href="">Contacto</a></li>
+                </ul>
+            </div>
+            <div class="lista ">
+                <ul>
+                    <li><a href="https://www.instagram.com"> <img src="./images/instaLogo.png" alt=""> Instagram</a></li>
+                    <li><a href="https://www.twitter.com"> <img src="./images/twitterLogo.png" alt=""> Twitter</a></li>
+                    <li><a href="https://www.facebook.com"> <img src="./images/faceLogo.png" alt=""> Facebook</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
